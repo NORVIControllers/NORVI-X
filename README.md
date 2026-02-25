@@ -33,11 +33,9 @@ Example configurations and details for uploading code to the ESP32S3:
 
 ### Upload Configuration
 ![Upload Details](Images/Upload_Details.png)
-
 ## Technical Highlights
 - Modular and expandable design  
 - Reliable industrial-grade hardware  
 - Easy integration with sensors and actuators  
-
 ## Support
 For technical support or additional documentation, please visit: [NORVI Support](https://norvi.io/contact-us/)
