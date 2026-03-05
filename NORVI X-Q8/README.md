@@ -11,3 +11,5 @@ circuitry and the processor.
 The module supports high-speed switching frequencies for precise automation tasks and 
 features individual LED diagnostics for real-time status monitoring. Field wiring is streamlined 
 via a 9-pin terminal block providing eight transistor outputs (TR1–TR8) and a common 24V DC (V+) supply input.
+
+Datasheet : https://norvi.io/docs/norvi-x-q8-datasheet/
