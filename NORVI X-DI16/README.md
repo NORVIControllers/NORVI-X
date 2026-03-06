@@ -24,3 +24,5 @@ The following table defines the DIP switch configurations required to set the un
 | ON  | OFF | ON  | `0x22` |
 | ON  | ON  | OFF | `0x21` |
 | ON  | ON  | ON  | `0x20` |
+
+Datasheet : https://norvi.io/docs/norvi-x-di16-datasheet/
