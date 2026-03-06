@@ -1,8 +1,7 @@
 # NORVI X-AQ4
 ## 4-channel analog output expansion module
 
-The NORVI X-AQ4 provides 4 analog outputs: 2 voltage outputs (0–10 V) and 2 current outputs (4–20 mA), managed by a dedicated 12-bit DAC on the onboard STM32 microcontroller. 
-This setup offloads timing-critical signal generation from the main CPU, ensuring high stability and precision.
+The NORVI X-AQ4 provides 4 analog outputs: 2 voltage outputs (0–10 V) and 2 current outputs (4–20 mA), managed by a dedicated 12-bit DAC on the onboard STM32 microcontroller. This setup offloads timing-critical signal generation from the main CPU, ensuring high stability and precision. It features an I²C expansion bus for easy connectivity, DIP switch addressing for flexible configuration, status LED indicators for each input channel, and plug-and-play connection to the NORVI X CPU module via the expansion bus.
 
 ## Testing Instructions
 - The module has **2 voltage output ports** and **2 current output ports**.
