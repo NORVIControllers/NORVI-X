@@ -209,7 +209,7 @@ Documentation:
 https://norvi.io/docs
 
 Datasheet:  
-https://norvi.io/docs/norvi-x-di4-datasheet/
+https://norvi.io/docs/norvi-x-di8-datasheet/
 
 For additional support or inquiries, contact the **NORVI support team**.
 
