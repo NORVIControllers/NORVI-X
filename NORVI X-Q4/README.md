@@ -48,7 +48,7 @@ Follow the steps below to run the example.
 
 Connect the **NORVI X CPU** and **Q4 expansion module** correctly.
 
-Connect transistor signals to:
+Connect transistor output signals to:
 
 - **TR1 – TR4**
 
