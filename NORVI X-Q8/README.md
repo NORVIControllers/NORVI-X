@@ -46,7 +46,7 @@ The current output states are shown on the **built-in TFT display** and **Serial
 
 1. Connect the **NORVI X CPU** and **Q8 expansion module** correctly  
 2. Connect transistor output signals to **TR1 – TR8**  
-3. Ensure the signals are within the supported **input/output range**
+3. Ensure the I2C is correctly mapped
 
 ---
 
