@@ -113,7 +113,11 @@ Before running the example, ensure:
 
 - The controller is powered correctly  
 - Required signals are connected  
-- Any required configuration is completed  
+- Any required configuration is completed
+
+Example:
+
+**Power Supply:** 24V DC  
 
 ---
 
