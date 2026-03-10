@@ -143,6 +143,10 @@ Before running the example:
 - Required signals are **connected**  
 - Any necessary configuration is **completed**
 
+Example:
+
+**Power Supply:** 24V DC  
+
 ---
 
 ## Required Libraries
