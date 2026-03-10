@@ -69,7 +69,8 @@ When the program runs successfully:
 - The status of each output (TR1 - TR16) is displayed as ON/OFF
 - Values update continuously as outputs change
 
-## Example Output on the Serial Monitor
+### Example Output on the Serial Monitor
+```
 TR1 : ON  
 TR1 : OFF  
 TR2 : ON  
@@ -77,12 +78,14 @@ TR2 : OFF
 ...  
 TR16 : ON  
 TR16 : OFF  
-
-## Example Output on the TFT Screen
+```
+### Example Output on the TFT Screen
+```
 TR1 : ON OFF  
 TR2 : ON OFF  
 ...  
 TR16 : ON OFF  
+```
 
 ## How to Validate the Example
 To verify the example works correctly:
