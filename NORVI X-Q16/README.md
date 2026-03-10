@@ -99,6 +99,10 @@ Before running the example ensure:
 - Required signals are connected
 - Any required configuration is completed
 
+Example:
+
+**Power Supply:** 24V DC  
+
 ## Required Libraries
 Install the following libraries before compiling:
 - Wire
