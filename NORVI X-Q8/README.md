@@ -128,11 +128,10 @@ TR8 : ON OFF
 ---
 
 ## How to Validate the Example
-
-1. Apply a valid input signal  
-2. Observe the outputs on the **TFT screen**  
-3. Check the **Serial Monitor** for status updates  
-4. Confirm that changing the output state reflects correctly in both TFT and Serial Monitor  
+ 
+1. Observe the outputs on the **TFT screen**  
+2. Check the **Serial Monitor** for status updates  
+3. Confirm that changing the output state reflects correctly in both TFT and Serial Monitor  
 
 ---
 
