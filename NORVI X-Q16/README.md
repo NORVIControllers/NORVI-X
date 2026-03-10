@@ -132,6 +132,7 @@ Verified By: Kaveesha
 
 ## Support
 Documentation: https://norvi.io/docs  
+
 Datasheet: https://norvi.io/docs/norvi-x-q16-datasheet/
 
 For additional support or inquiries, contact the NORVI support team.
