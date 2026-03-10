@@ -16,23 +16,33 @@ This example demonstrates how to:
 
 The program continuously reads 
 
-**NO1 to NO4**. 
+- **NO1 to NO4**. 
 
 The current input states are shown on the **built-in TFT display** and **Serial Monitor**.
 
-## Hardware Connections
+## Running the Example
+
+Follow the steps below to run the example.
+
+### 1. Hardware Connections
 
 Connect the **NORVI X CPU** and **R4 expansion module** correctly. 
 
-Connect relay output signals to **NO1 – NO4**.
+Connect relay output signals to:
 
-## Configure the Program
+- **NO1 – NO4**
+
+Ensure the signal is within the **supported output range**.
+
+---
+
+### 2. Configure the Program
 
 Ensure the I2C pins are correctly defined:  
 SDA → Pin 8  
 SCL → Pin 9
 
-### Address Selection
+#### Address Selection
 
 | DIP 1 | DIP 2 | DIP 3 | DIP 4 | I²C Address |
 |-------|-------|-------|-------|-------------|
@@ -41,17 +51,20 @@ SCL → Pin 9
 | OFF   | ON    | -     | -     | 0x71        |
 | ON    | ON    | -     | -     | 0x70        |
 
-## Upload the Program
+---
+### 3. Upload the Program
 
-- Open the example program in **Arduino IDE / PlatformIO**  
-- Select the correct **board and port**  
-- Upload the program to the **NORVI controller**
+1. Open the example program in **Arduino IDE / PlatformIO**  
+2. Select the correct **board and port**  
+3. Upload the program to the **NORVI controller**
 
+---
 ## Open Serial Monitor
 
 Set the **baud rate** to `115200`.
 
-## Observe the Display
+---
+### 5. Observe the Display
 
 When the program runs successfully:
 
