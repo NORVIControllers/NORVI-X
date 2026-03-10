@@ -47,10 +47,10 @@ Ensure the signal is within the **supported output range**.
 
 | DIP 1 | DIP 2 | DIP 3 | DIP 4 | Address |
 |-------|-------|-------|-------|---------|
-| OFF   | OFF   |       |       | 0x73    |
-| ON    | OFF   |       |       | 0x72    |
-| OFF   | ON    |       |       | 0x71    |
-| ON    | ON    |       |       | 0x70    |
+| OFF   | OFF   | -      | -      | 0x73    |
+| ON    | OFF   | -      | -      | 0x72    |
+| OFF   | ON    | -      | -      | 0x71    |
+| ON    | ON    | -      | -      | 0x70    |
 
 ---
 
@@ -160,7 +160,7 @@ https://github.com/NORVIControllers/NORVI-X-Version-01/tree/main/libraries
 
 ## Test Information
 
-- **Test Date:** 2026-03-09  
+- **Test Date:** 2026-03-10  
 - **Verified By:** Kaveesha  
 
 ---
