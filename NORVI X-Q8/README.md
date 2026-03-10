@@ -96,7 +96,7 @@ Set the **Baud Rate** to:
 When the program runs successfully:
 
 - The controller initializes the TFT display  
-- The screen shows **DI16 test screen**  
+- The screen shows **Q8 test screen**  
 - The status of each output (**TR1 – TR8**) is displayed as **ON/OFF**  
 - Values update continuously as outputs change  
 
