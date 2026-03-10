@@ -20,26 +20,30 @@ This example shows how to:
 
 The program continuously reads 
 
-**NO1 to NO8**
+- **NO1 to NO8**
 
-The current input states are shown on the built-in TFT display and Serial Monitor.
+The current input states are shown on the **built-in TFT display** and **Serial Monitor**.
 
 ---
+## Running the Example
 
-## Hardware Connections
+### 1. Hardware Connections
 
 1. Connect the **NORVI X CPU** and **R8 expansion module** correctly.  
-2. Connect relay output signals to: `NO1` to `NO8`.  
+2. Connect relay output signals to:
 
+   - **NO1** to **NO8**
+   - 
+Ensure the signal is within the **supported output range**.
 ---
 
-## Program Configuration
+### 2. Program Configuration
 
 - **I2C Pins:**  
   - `SDA` → Pin 8  
   - `SCL` → Pin 9  
 
-### Address Selection via DIP Switch
+#### Address Selection via DIP Switch
 
 | DIP 1 | DIP 2 | DIP 3 | DIP 4 | Address |
 |-------|-------|-------|-------|---------|
@@ -50,7 +54,7 @@ The current input states are shown on the built-in TFT display and Serial Monito
 
 ---
 
-## Upload the Program
+### 3.Upload the Program
 
 1. Open the example program in **Arduino IDE** or **PlatformIO**.  
 2. Select the correct board and port.  
@@ -58,13 +62,13 @@ The current input states are shown on the built-in TFT display and Serial Monito
 
 ---
 
-## Open Serial Monitor
+### Open Serial Monitor
 
 - Set **Baud Rate** to `115200`.  
 
 ---
 
-## Observe the Display
+### 5. Observe the Display
 
 When the program runs successfully:
 
@@ -93,7 +97,9 @@ RELAY 8 : ON OFF
 ```
 ---
 
-## How to Validate
+## How to Validate the Example
+
+To verify the example works correctly:
 
 1. Observe the outputs.  
 2. Check the Serial Monitor for status updates.  
@@ -123,30 +129,29 @@ Install the following libraries before compiling:
 - CST816S  
 
 **Download Libraries:**  
-[NORVI GitHub Libraries](https://github.com/NORVIControllers/NORVI-X-Version-01/tree/main/libraries)
+https://github.com/NORVIControllers/NORVI-X-Version-01/tree/main/libraries 
 
 **Installation Steps:**
 
-1. Open Arduino IDE.  
-2. Go to **Library Manager**.  
-3. Search and install the required libraries.  
+1. Open **Arduino IDE**  
+2. Go to **Library Manager**  
+3. Search and install the required libraries
 
 ---
 
 ## Limitations
 
-- Provided for demonstration purposes only  
-- Additional calibration may be required for precise measurements  
-- Performance may depend on sensor accuracy and environmental conditions  
+- This example is provided for **demonstration purposes**  
+- Additional calibration may be required for **precise measurements**  
+- Performance may depend on **sensor accuracy** and environmental conditions
 
 ---
 
 ## Safety Notes
 
-- Do not exceed the rated input voltage  
-- Ensure proper grounding  
-- Incorrect wiring may damage the controller  
-
+- Do **not exceed the rated input voltage**  
+- Ensure **proper grounding**  
+- Incorrect wiring may **damage the controller**
 ---
 
 ## Test Information
@@ -158,9 +163,9 @@ Install the following libraries before compiling:
 
 ## Support
 
-**Documentation:** [NORVI Docs](https://norvi.io/docs)
+Documentation: https://norvi.io/docs  
   
-**Datasheet:** https://norvi.io/docs/norvi-x-r8-datasheeet/ 
+Datasheet: https://norvi.io/docs/norvi-x-r8-datasheeet/ 
 
 For additional support, contact the NORVI support team.  
 
