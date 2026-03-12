@@ -24,10 +24,8 @@ The example demonstrates how to:
   
 - Control and monitor the status of analog outputs
    
-- Configure and control 4 channels of analog output:  
-  - Channels 1 & 2: Output a voltage range of 0–10 V  
-  - Channels 3 & 4: Output a current range of 0–20 mA
-    
+- Configure and control 4 channels of analog outputs
+  
 - Convert raw DAC values into actual voltage/current readings using a defined ratio
   
 - Use the **TFT_eSPI** library to display real-time status updates
